@@ -1,0 +1,27 @@
+﻿<Page x:Class="Andatos.TablaSec"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Andatos"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TablaSec">
+
+    <Grid Background="LightSkyBlue" Margin="0,0,-291,0.286" >
+        <CheckBox x:Name="DNIc" Content="DNI" HorizontalAlignment="Left" Margin="261,369,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Areac" Content="Area" HorizontalAlignment="Left" Margin="261,385,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Despachoc" Content="Despacho" HorizontalAlignment="Left" Margin="261,401,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="TelefonoDespachoc" Content="Telefono Despacho" HorizontalAlignment="Left" Margin="261,415,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="TelefonoMovilc" Content="Telefono Movil" HorizontalAlignment="Left" Margin="459,369,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Correoc" Content="Correo" HorizontalAlignment="Left" Margin="459,385,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Ordenadorc" Content="Ordenador" HorizontalAlignment="Left" Margin="459,401,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Tutoriasc" Content="Tutorias" HorizontalAlignment="Left" Margin="459,417,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.299,0.459"/>
+        <CheckBox x:Name="AltaBajac" Content="Alta/Baja" HorizontalAlignment="Left" Margin="709,369,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Titulacionc" Content="Titulacion" HorizontalAlignment="Left" Margin="709,385,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="FigContractualc" Content="Figura Contractual" HorizontalAlignment="Left" Margin="709,401,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Observacionesc" Content="Observaciones" HorizontalAlignment="Left" Margin="709,417,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="Data2" HorizontalAlignment="Left" Height="364" VerticalAlignment="Top" Width="1091" Background="LightGoldenrodYellow"/>
+        <Button x:Name="btnmostrar" Content="Mostrar" HorizontalAlignment="Left" Margin="49,402,0,0" VerticalAlignment="Top" Width="98" Click="btnmostrar_Click" />
+    </Grid>
+</Page>
